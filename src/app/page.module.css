@@ -1,0 +1,15 @@
+.content {
+  width: 100%;
+}
+
+
+.page {
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* *{
+  
+} */

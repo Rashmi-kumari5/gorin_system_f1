@@ -1,0 +1,80 @@
+.omCard {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 357px;
+  position: relative;
+}
+
+.omCard:hover {
+  transform: translateY(-5px);
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.contentWrapper {
+  padding: 16px;
+}
+
+.omTitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: start;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.omDescription {
+  font-size: 14px;
+  font-weight: 400;
+  color: #52525B;
+  text-align: start;
+  margin-bottom: 48px;
+}
+
+.ctaButton {
+  background-color: transparent;
+  color: #7261FF;
+  border: 2px solid #7f5af0;
+  width: calc(100% - 24px);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  padding: 10px 16px;
+  left: 0;
+  margin-left: 12px;
+  bottom: 12px;
+}
+
+.ctaButton:hover {
+  background-color: #7f5af0;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .omCard {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .img {
+    width: 32px;
+  }
+
+  .omTitle {
+    font-size: 18px;
+  }
+
+  .omDescription {
+    font-size: 12px;
+  }
+}

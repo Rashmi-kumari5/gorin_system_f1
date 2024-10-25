@@ -1,0 +1,157 @@
+.textContainer {
+  max-width: 48%;
+}
+
+.buttonGroup {
+  padding: 0px 24px;
+  gap: 10px;
+  display: flex;
+}
+
+.textContainer p {
+  padding: 0px 24px;
+  line-height: 34px;
+  color: #000;
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: 400;
+  width: 525px;
+}
+
+.freeTrialButton {
+  cursor: pointer;
+  background-color: #7261FF;
+  padding: 12px 16px;
+  color: white;
+  line-height: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+}
+
+.textContainer h1 span {
+  font-weight: 700;
+  line-height: 66px;
+  font-size: 54px;
+  color: #18181B;
+}
+
+.imageContainer img {
+  height: auto;
+  max-height: 455px;
+  width: 100%;
+  max-width: 528px;
+}
+
+.textContainer h1 {
+  font-weight: 400;
+  line-height: 66px;
+  padding: 0px 24px;
+  font-size: 54px;
+  margin-bottom: 24px;
+  color: #18181B;
+}
+
+.watchDemoButton {
+  gap: 10px;
+  border: none;
+  background-color: white;
+  line-height: 30px;
+  color: #2F2F2F;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  font-weight: 400;
+}
+
+.mainWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 80px 150px;
+}
+
+.imageContainer {
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  display: flex;
+}
+
+@media (max-width: 762px) {
+  .mainWrapper {
+    padding: 40px 16px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .textContainer {
+    max-width: 100%;
+  }
+
+  .textContainer h1 {
+    padding: 0;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .textContainer p {
+    padding: 0;
+    font-size: 18px;
+    width: 100%;
+    line-height: 30px;
+  }
+
+  .textContainer h1 span {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .imageContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .freeTrialButton,
+  .watchDemoButton {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+    padding: 0;
+    gap: 15px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 763px) and (max-width: 1024px) {
+  .mainWrapper {
+    padding: 60px 50px;
+  }
+
+  .textContainer h1 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .textContainer p {
+    font-size: 18px;
+    width: 100%;
+    line-height: 30px;
+  }
+
+  .textContainer h1 span {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .buttonGroup {
+    justify-content: center;
+    padding: 0px;
+  }
+}
